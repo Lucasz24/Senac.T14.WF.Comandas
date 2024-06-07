@@ -7,14 +7,26 @@ namespace Comandas
             InitializeComponent();
         }
 
-        private void metroButton1_Click(object sender, EventArgs e)
-        {
 
+
+        private void btnCardapio_Click(object sender, EventArgs e)
+        {
+            new FrmCardapio().ShowDialog();
         }
 
-        private void metroButton3_Click(object sender, EventArgs e)
+        private void btnComanda_Click(object sender, EventArgs e)
         {
+            new FrmComanda().ShowDialog();
+        }
 
+        private void btnPedidoCozinha_Click(object sender, EventArgs e)
+        {
+            new FrmPedidoCozinha().ShowDialog();
+        }
+
+        private void Usuarios_Click(object sender, EventArgs e)
+        {
+            new FrmUsuarios().ShowDialog();
         }
     }
 }
