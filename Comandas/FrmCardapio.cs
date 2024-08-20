@@ -16,5 +16,25 @@ namespace Comandas
         {
             InitializeComponent();
         }
+
+        private void cyberTextBox1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCardapio_Load(object sender, EventArgs e)
+        {
+            new FrmCardapioCad().ShowDialog();
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
